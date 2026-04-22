@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
+.light-mode {
+  /* TODO Add light mode styles here. */
+  background-color: white;
+  color: black;
+}
+
+.center {
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border: 1px dotted white;
+  /* TODO Add margins to center. */
+}
+
+.poem {
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+}
+
+.light-mode footer {
+  background-color: white;
+}
