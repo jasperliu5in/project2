@@ -1,9 +1,10 @@
-let button = document.getElementById("counter-button");
-let counter = document.getElementById("counter")
+let counterbutton = document.getElementById("counter-button");
+let counter = document.getElementById("counter");
 let number = 0;
 
-function ChangeNumberMode(){
-    number + 1
+function ChangeNumberMode() {
+    number = number + 1;
+    counter.textContent = number;
 }
 
-button.addEventListener("click", ChangeNumberMode);
+counterbutton.addEventListener("click", ChangeNumberMode);
