@@ -6,13 +6,15 @@ body {
   padding: 20px;
   background-color: black;
   color: white;
+  background-image: url(../images/rad.jpg);
 }
 
 .light-mode {
-  /* TODO Add light mode styles here. */
   padding: 20px;
   background-color: white;
   color: black;
+  background-image: url(../images/blue.png);
+
 }
 
 .center {
@@ -21,7 +23,6 @@ body {
   margin-right: auto;
   padding: 20px;
   border: 1px dotted white;
-  /* TODO Add margins to center. */
 }
 
 .poem {
@@ -34,4 +35,45 @@ footer {
 
 .light-mode footer {
   background-color: white;
+}
+
+#counter {
+  background-color: red;
+  color: white;
+  max-width: 200px;
+  border-width: 4px;
+  border-color: #07f226;
+  border-style: solid; 
+  min-width: 40px;
+  max-width: 200px;
+}
+
+#calculator-buttons{
+  color: aqua;
+  max-width: 200px;
+  padding: 20px;
+  border-width: 4px;
+  border-color: #07f226;
+  border-style: solid;
+  min-width: 40px;
+  max-width: 200px;
+}
+
+button{
+  min-width: 40px;
+  min-height: 30px;
+  margin: 2px;
+  background-color: red;
+}
+
+#calculator{
+  background-image: url(../images/red.jpg);
+  color: aqua;
+  max-width: 200px;
+  background-blend-mode: color;
+  border-width: 4px;
+  border-color: #225bbe;
+  border-style: solid;
+  min-width: 40px;
+  max-width: 200px;
 }
