@@ -15,86 +15,97 @@ let eight = document.getElementById("Eight")
 let nine = document.getElementById("Nine")
 let zero = document.getElementById("Zero")
 let counterbuttonClear = document.getElementById("counter-button-clear");
+let Addbutton = document.getElementById("plus")
+let Minusbutton = document.getElementById("minus")
+let Equalbutton = document.getElementById("equal")
+let Oldnumber = 0
 let counter = document.getElementById("counter");
 let number = 0;
 
 //Define Functions
+function Show(num) {
+    counter.textContent = num;
+}
+
+function Rember() {}
+
+function Add() {}
+
+function Minus() {}
 
 function Add1() {
     number = number + 1;
-    counter.textContent = number;
+    Show(number);
 }
 
 function Add2() {
     number = number + 2;
-    counter.textContent = number;
+    Show(number);
 }
 
 function Minus1() {
     number = number - 1;
-    counter.textContent = number;
+    Show(number);
 }
 
 function Minus2() {
     number = number - 2;
-    counter.textContent = number;
+    Show(number)
 }
 
 function One() {
-    number = 1;
-    counter.textContent = number;
+    number = number * 10 + 1;
+    Show(number)
 }
 
 function Two() {
-    number = 2;
-    counter.textContent = number;
+    number = number * 10 + 2;
+    Show(number)
 }
 
 function Three() {
-    number = 3;
-    counter.textContent = number;
+    number = number * 10 + 3;
+    Show(number)
 }
 
 function Four() {
-    number = 4;
-    counter.textContent = number;
+    number = number * 10 + 4;
+    Show(number)
 }
 
 function Five() {
-    number = 5;
-    counter.textContent = number;
+    number = number * 10 + 5;
+    Show(number)
 }
 
 function Six() {
-    number = 6;
-    counter.textContent = number;
+    number = number * 10 + 6;
+    Show(number)
 }
 
 function Seven() {
-    number = 7;
-    counter.textContent = number;
+    number = number * 10 + 7;
+    Show(number)
 }
 
 function Eight() {
-    number = 8;
-    counter.textContent = number;
+    number = number * 10 + 8;
+    Show(number)
 }
 
 function Nine() {
-    number = 9;
-    counter.textContent = number;
+    number = number * 10 + 9;
+    Show(number)
 }
 
 function Zero() {
-    number = 0;
-    counter.textContent = number;
+    number = number * 10 + 0;
+    Show(number)
 }
 function clear() {
     number = 0;
-    counter.textContent = number;
+    Show(number)
 }
-
-console.log(number)
 
 //Define Button Event Listeners
 
