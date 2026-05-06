@@ -1,79 +1,44 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  padding: 20px;
-  background-color: black;
-  color: white;
-  background-image: url(../images/rad.jpg);
+    padding: 20px;
+    background-color: black;
+    color: white;
+    background-image: url(../images/red2.jpg);
 }
 
 .light-mode {
-  padding: 20px;
-  background-color: white;
-  color: black;
-  background-image: url(../images/blue.png);
-
+    background-color: azure;
+    color: white;
+    background-image: url(../images/blue2.jpg);
 }
 
 .center {
-  width: 940px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
-  border: 1px dotted white;
+    width: 940px;
+    padding: 20px;
+    border: 1px dotted white;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .poem {
-  text-align: center;
+    text-align: left;
 }
 
 footer {
-  background-color: black;
+    background-color: blue;
+    padding: 10px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgb(23, 22, 31), rgb(48, 48, 48));
 }
 
 .light-mode footer {
-  background-color: white;
+    background-color: black;
+    color: aqua;
 }
 
-#counter {
-  background-color: red;
-  color: white;
-  max-width: 200px;
-  border-width: 4px;
-  border-color: #07f226;
-  border-style: solid; 
-  min-width: 40px;
-  max-width: 200px;
-}
-
-#calculator-buttons{
-  color: aqua;
-  max-width: 200px;
-  padding: 20px;
-  border-width: 4px;
-  border-color: #07f226;
-  border-style: solid;
-  min-width: 40px;
-  max-width: 200px;
-}
-
-button{
-  min-width: 40px;
-  min-height: 30px;
-  margin: 2px;
-  background-color: red;
-}
-
-#calculator{
-  background-image: url(../images/red.jpg);
-  color: aqua;
-  max-width: 200px;
-  background-blend-mode: color;
-  border-width: 4px;
-  border-color: #225bbe;
-  border-style: solid;
-  min-width: 40px;
-  max-width: 200px;
+.font {
+    font-family: "Sekuya", system-ui;
 }
